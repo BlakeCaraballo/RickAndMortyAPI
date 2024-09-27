@@ -36,7 +36,9 @@ Make sure you have the following installed:
 The application was built using React, leveraging functional components and hooks (such as useState and useEffect) to manage state and side effects. The following steps outline the approach taken:
 
 API Integration: Implemented API calls to fetch character data from the Rick & Morty API, using asynchronous functions to handle data retrieval.
+
 State Management: Utilized useState to manage sorting and filtering options, as well as loading and error states.
+
 Rendering Components: Created a Card component to display character details and a DataSection component to handle sorting, filtering, and displaying the list of characters.
 
 ## Challenges
