@@ -1,0 +1,24 @@
+@import "../../vars.css";
+
+.dataSection {
+  padding: 50px 10%;
+  background-color: #f4f4f4;
+}
+
+.controls {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+  
+  @media screen and (max-width: 830px) {
+    .cards {
+      grid-template-columns: 1fr; /* Stack the cards on small screens */
+    }
+  }
